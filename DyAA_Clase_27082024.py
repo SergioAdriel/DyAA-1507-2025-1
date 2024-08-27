@@ -1,7 +1,8 @@
 # Clase del 27 de Agosto del 2024
 import random
+import time
 
-n = 10
+n = 1000
 lista = []
 
 while len(lista) < n: #Mientras la lonigtud de elementos en mi lista
@@ -20,3 +21,6 @@ for i in range(n):
 
 #print(lista)
 
+inicio = time.time() #bilioteca time.funcion time
+fin = time.time()
+print(fin-inicio)
