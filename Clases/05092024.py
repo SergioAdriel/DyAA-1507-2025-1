@@ -4,9 +4,8 @@ def cifra_cesar(cad, llave):
 
     for c in cad:  # Iteramos sobre cada carácter en la cadena original
         if c in alfabeto:  # Si el carácter está en el alfabeto
-            indice = alfabeto.index(c)  # Encontramos su índice en el alfabeto
-            nuevo_indice = (indice + llave) % len(alfabeto)  # Calculamos el nuevo índice aplicando la llave
-            cifrado += alfabeto[nuevo_indice]  # Añadimos el carácter cifrado a la cadena resultado
+            pos = alfabeto.index(c)  # Encontramos su índice en el alfabeto
+            cifrado = cifrado+alfabeto[(pos+llave)%26]  # Calculamos el nuevo índice aplicando la llave
         else:
             cifrado += c  # Si no está en el alfabeto, lo añadimos tal cual
 
