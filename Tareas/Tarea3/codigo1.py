@@ -28,3 +28,5 @@ else:
         print("Usted gana")
     elif usuario == '2' and compu == '1':
         print("Gana la computadora")
+
+#Checo Estuvo Aqui

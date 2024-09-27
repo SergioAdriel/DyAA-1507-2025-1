@@ -20,4 +20,4 @@ elif (int(usuario) - int(compu)) % 5 in [1,2]:
 else:
     print('Usted gana')
 
-    0
+#Checo Estuvo Aqui
