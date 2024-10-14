@@ -16,4 +16,10 @@ if usuario == compu:
 elif (int(usuario) - int(compu)) % 3 == 1:
     print('Gana la computadora')
 else:
+<<<<<<< HEAD
     print('Usted gana')
+=======
+    print('Usted gana')
+
+#Checo Estuvo Aqui
+>>>>>>> f8bf5cc79f75aa907e19e318b2ba2b355c87738d

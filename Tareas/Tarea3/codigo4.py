@@ -20,4 +20,8 @@ elif (int(usuario) - int(compu)) % 5 in [1,2]:
 else:
     print('Usted gana')
 
+<<<<<<< HEAD
     0
+=======
+#Checo Estuvo Aqui
+>>>>>>> f8bf5cc79f75aa907e19e318b2ba2b355c87738d
