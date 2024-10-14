@@ -1,5 +1,5 @@
 def carga_cifrado():  # Carga texto cifrado desde el archivo
-    with open('Tareas\Tarea4\MUÃ‘OZ CAMARENA SERGIO ADRIEL.txt', 'r') as archivo:
+    with open('Tareas/Tarea4/textoCifrado.txt','r') as archivo:
         return archivo.read()  # Lee todo el contenido del archivo
 
 # Cargar el texto cifrado desde el archivo y lo almaceno en la variable de textoCifrado
