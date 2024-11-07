@@ -12,3 +12,5 @@ def cifra_sustituye(cad, llave):
 llave = 'oveflztrsmaiwgexqjpbuynhkd'
 texto = "hola"
 print(cifra_sustituye(texto, llave))
+
+# Usando dicionarios 
